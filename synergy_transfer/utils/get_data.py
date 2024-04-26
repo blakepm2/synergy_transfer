@@ -2,13 +2,16 @@ import requests
 import json
 import pandas as pd
 
-from set_config import read_config
+from .set_config import read_config
 
 config = read_config()
 
 BASE_URL = 'https://api.drugcomb.org'
 
 SAVE_DIR = config['SAVE_DIR']
+
+def hello():
+    print("hello")
 
 
 def send_request(endpoint):
