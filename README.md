@@ -42,10 +42,76 @@ First you need to clone this repo to your local machine. The instructions below 
 
 </details>
 
+### Step 2: Set up your environment
 
-### Step 2: Download the data
+After cloning the repository, you need to set up your environment in order to run the code. Ubuntu 22.04 is recommended for this.
 
-### Step 3: Set up your environment
+#### 2.1 Install Conda
+
+First, install Conda as shown below, you can refer to more comprehensive instructions on [Conda's website](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html) if you're using a different OS.
+
+```
+mkdir -p ~/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm -rf ~/miniconda3/miniconda.sh
+```
+
+Then initialize bash and zsh shells
+
+```
+~/miniconda3/bin/conda init bash
+~/miniconda3/bin/conda init zsh
+```
+
+Create a new conda environment using Python 3.8 as the base. To make things easier, you can use the following command to create a new conda environment using the [environment.yaml](environment.yaml) file, as shown below:
+
+```
+conda env create -f environment.yaml
+```
+
+Or, if you wish to do it yourself, create your new conda environment as shown below:
+
+```
+conda create -n synergy python=3.8
+```
+
+and activate it
+
+```
+conda activate synergy
+```
+
+#### 2.2 Install Python Dependencies
+
+With a conda environment successfully configured, you now must install all of the required Python dependencies.
+
+```
+pip install torch torchvision
+pip install cudatoolkit==12.1
+pip install pandas
+pip install scikit-learn
+pip install seaborn
+pip install numpy
+pip install matplotlib
+pip install rdkit
+```
+
+At this point you should be all set up to start running the code in this notebook. Ensure you select the conda environment you created as the Kernel.
+
+### Step 3: Download the data
+
+Next, you need to download the data in order to train the models. For simplicity, you can use this script to download the data directly from Google Drive. This folder includes both the raw and processed data, as well as pretrained models.
+
+```
+import gdown
+
+DATA_PATH = 'downloaded_data/'
+
+gdown.download_folder('https://drive.google.com/drive/u/1/folders/14xZ4BLGMEO0Wv5uY0R2tMtB13hevjVLF', output=DATA_PATH, quiet=False)
+```
 
 ### Step 4: Run `final.ipynb`
+
+After completing the steps listed above, you should be ready to go and can choose to reprocess the raw data and train the model for yourself, or you can instead load the pretrained models as needed.
 
