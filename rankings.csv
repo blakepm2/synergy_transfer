@@ -1,0 +1,21 @@
+Drug 1, Drug 2, Cell, Tissue, Disease, ri_d1, ri_d2, syn_true_all_order
+AXITINIB , CABAZITAXEL , DU-145 , prostate , c4863 , 0 , 0 , 1.0
+ACTINOMYCIN D , IXABEPILONE , PC-3 , prostate , c4863 , 0 , 0 , 1.0
+RUXOLITINIB , CABAZITAXEL , DU-145 , prostate , c4863 , 0 , 0 , 1.0
+FLUDARABINE BASE , IXABEPILONE , DU-145 , prostate , c4863 , 0 , 0 , 1.0
+VINBLASTINE SULFATE , IXABEPILONE , PC-3 , prostate , c4863 , 0 , 0 , 1.0
+AMIFOSTINE , IXABEPILONE , PC-3 , prostate , c4863 , 0 , 0 , 1.0
+IMATINIB , IXABEPILONE , PC-3 , prostate , c4863 , 0 , 0 , 1.0
+IMATINIB , IXABEPILONE , DU-145 , prostate , c4863 , 0 , 0 , 1.0
+TOPOTECAN HYDROCHLORIDE , IXABEPILONE , DU-145 , prostate , c4863 , 0 , 0 , 1.0
+HYDROXYUREA , IXABEPILONE , PC-3 , prostate , c4863 , 0 , 0 , 1.0
+TEMOZOLOMIDE , IXABEPILONE , PC-3 , prostate , c4863 , 0 , 0 , 1.0
+CO-V , IXABEPILONE , DU-145 , prostate , c4863 , 0 , 0 , 1.0
+CHEMBL17639 , IXABEPILONE , DU-145 , prostate , c4863 , 0 , 0 , 1.0
+PLICAMYCIN , IXABEPILONE , DU-145 , prostate , c4863 , 0 , 0 , 1.0
+ARSENIC TRIOXIDE , NSC256439 , DU-145 , prostate , c4863 , 0 , 0 , 0.0
+PRALATREXATE , IXABEPILONE , DU-145 , prostate , c4863 , 0 , 0 , 1.0
+LETROZOLE , IXABEPILONE , DU-145 , prostate , c4863 , 0 , 0 , 1.0
+RUXOLITINIB , ADM HYDROCHLORIDE , DU-145 , prostate , c4863 , 0 , 0 , 1.0
+ACTINOMYCIN D , ARSENIC TRIOXIDE , DU-145 , prostate , c4863 , 0 , 0 , 1.0
+PAZOPANIB HYDROCHLORIDE , CABAZITAXEL , PC-3 , prostate , c4863 , 0 , 0 , 1.0
