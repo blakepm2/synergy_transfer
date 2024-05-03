@@ -7,6 +7,11 @@
 
 The original publication can be accessed [here](https://academic.oup.com/jamia/article-abstract/28/1/42/5920819?redirectedFrom=fulltext&login=false). And the original publication GitHub repoitory can be accessed [here](https://github.com/yejinjkim/synergy-transfer). 
 
+<a href="https://www.youtube.com/watch?v=viN0ZtUBl_g">
+<div align="center">
+    <img src="public/assets/thumbnail.png" width="700">
+</div>
+
 ## 🎯 Purpose
 
 A significant challenge faced in the drug discovery for cancer research is the uneven distribution of data for particular types of cancers and tissues. [Kim et al. (2020)](https://doi.org/10.1101/2020.02.05.932657) present a novel solution using a deep neural network that uses transfer learning to learn from the abundance of examples within data-rich tissues and enhance predictions in data-poor tissues.
@@ -114,4 +119,20 @@ gdown.download_folder('https://drive.google.com/drive/u/1/folders/14xZ4BLGMEO0Wv
 ### Step 4: Run `final.ipynb`
 
 After completing the steps listed above, you should be ready to go and can choose to reprocess the raw data and train the model for yourself, or you can instead load the pretrained models as needed.
+
+## 📖 References
+
+[1]: Chen, X. (2002). TTD: Therapeutic target database. Nucleic Acids Research, 30(1), 412–415. https://doi.org/10.1093/nar/30.1.412 
+
+[2]: HMS LINCS (Harvard Medical School). LINCS MCF 10A Common Project: Rolling-timepoint sensitivity measures of the MCF 10A breast cell line to 8 small molecule perturbagens. Dataset 8 of 15: End-point dose-response metrics for biological replicate 2. http://lincsportal.ccs.miami.edu/datasets/#/view/LDS-1415. Published 2017.
+
+[3]: Kim, Y., Zheng, S., Tang, J., Zheng, W. J., Li, Z., & Jiang, X. (2020). Anti-Cancer Drug Synergy Prediction in Understudied Tissues Using Transfer Learning. https://doi.org/10.1101/2020.02.05.932657 
+
+[4]: Liu, S., Nie, W., Wang, C., Lu, J., Qiao, Z., Liu, L., Tang, J., Xiao, C., & Anandkumar, A. (2023). Multi-modal Molecule structure–text model for text-based retrieval and editing. Nature Machine Intelligence, 5(12), 1447–1457. https://doi.org/10.1038/s42256-023-00759-6
+
+[5]: Wishart, D. S., Knox, C., Guo, A. C., Cheng, D., Shrivastava, S., Tzur, D., Gautam, B., & Hassanali, M. (2007). Drugbank: A Knowledgebase for drugs, drug actions and drug targets. Nucleic Acids Research, 36(suppl_1). https://doi.org/10.1093/nar/gkm958 
+
+[6]: Zagidullin, B., Aldahdooh, J., Zheng, S., Wang, W., Wang, Y., Saad, J., Malyutina, A., Jafari, M., Tanoli, Z., Pessia, A., & Tang, J. (2019). Drugcomb: An integrative cancer drug combination data portal. Nucleic Acids Research, 47(W1). https://doi.org/10.1093/nar/gkz337 
+
+
 
